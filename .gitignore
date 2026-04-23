@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data and Models
+data/train/*.tfrecord
+data/val/*.tfrecord
+data/test/*.tfrecord
+experiments/pretrained_model/*
+!experiments/pretrained_model/.gitkeep
+experiments/reference/*
+!experiments/reference/.gitkeep
+*.ckpt
+*.ckpt.*
+*.pb
+*.pbtxt
+!label_map.pbtxt
+saved_model/
+!saved_model/.gitkeep
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

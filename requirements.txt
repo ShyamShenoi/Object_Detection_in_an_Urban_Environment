@@ -1,0 +1,18 @@
+# Project Dependencies
+tensorflow==2.10.0
+tf-models-official==2.10.0
+tensorflow-io==0.27.0
+waymo-open-dataset-tf-2-10-0
+pyparsing==2.4.7
+pycairo==1.21.0
+Cython==0.29.32
+jupyter==1.0.0
+matplotlib==3.6.0
+Pillow==9.2.0
+ray==2.0.0
+opencv-python-headless==4.6.0.66
+numpy==1.23.4
+pandas==1.5.0
+seaborn==0.12.0
+tqdm==4.64.1
+git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
