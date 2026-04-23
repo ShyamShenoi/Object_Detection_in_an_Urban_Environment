@@ -226,6 +226,6 @@ def create_inference_notebook(out_path):
     print(f"Created {out_path}")
 
 if __name__ == "__main__":
-    os.makedirs("../notebooks", exist_ok=True)
-    create_eda_notebook("../notebooks/Exploratory_Data_Analysis.ipynb")
-    create_inference_notebook("../notebooks/Inference_and_Animation.ipynb")
+    os.makedirs("notebooks", exist_ok=True)
+    create_eda_notebook("notebooks/Exploratory_Data_Analysis.ipynb")
+    create_inference_notebook("notebooks/Inference_and_Animation.ipynb")
